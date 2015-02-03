@@ -11,4 +11,5 @@ ADD run.sh /run.sh
 RUN chmod +x /run.sh
 
 EXPOSE 22
-CMD ["/run.sh"]
+#CMD ["/run.sh"]
+CMD sh /run.sh
