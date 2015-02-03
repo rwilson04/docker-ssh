@@ -1,7 +1,9 @@
 FROM shinymayhem/base
 
 RUN apt-get update && \
-	apt-get install -y openssh-server
+	apt-get install -y openssh-server && \
+	mkdir -p /var/run/sshd
+
 
 ADD conf/sshd_config /etc/ssh/sshd_config
 ADD run.sh /run.sh

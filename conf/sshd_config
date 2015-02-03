@@ -1,4 +1,5 @@
 ChallengeResponseAuthentication no
 UsePAM yes
 Subsystem sftp	internal-sftp
+UsePrivilegeSeparation no
 
