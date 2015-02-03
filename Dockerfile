@@ -12,4 +12,4 @@ RUN chmod +x /run.sh
 
 EXPOSE 22
 #CMD ["/run.sh"]
-CMD sh /run.sh
+CMD /bin/bash /run.sh
