@@ -1,0 +1,4 @@
+ChallengeResponseAuthentication no
+UsePAM yes
+Subsystem sftp	internal-sftp
+
