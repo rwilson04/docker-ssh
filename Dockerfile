@@ -11,7 +11,7 @@ ADD ssh.sh /opt/deploy/ssh.sh
 ADD addUser.sh /opt/deploy/addUser.sh
 ADD addAuthorizedKeys.sh /opt/deploy/addAuthorizedKeys.sh
 
-RUN chmod +x /*.sh
+RUN chmod +x /opt/deploy/*.sh
 
 ENV LOCAL_USER username
 ENV AUTHORIZED_KEYS blank
